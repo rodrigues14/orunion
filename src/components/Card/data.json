@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "src": "/assets/cards-image/calendar.svg",
+        "alt": "descrição 1",
+        "titulo": "titulo 1",
+        "texto": "texto 1"
+    },
+    {
+        "id": 2,
+        "src": "/assets/cards-image/rocket.svg",
+        "alt": "descrição 2",
+        "titulo": "titulo 2",
+        "texto": "texto 2"
+    },
+    {
+        "id": 3,
+        "src": "/assets/cards-image/money.svg",
+        "alt": "descrição 3",
+        "titulo": "titulo 3",
+        "texto": "texto 3"
+    },
+    {
+        "id": 4,
+        "src": "/assets/cards-image/money.svg",
+        "alt": "descrição 4",
+        "titulo": "titulo 4",
+        "texto": "Lorem ipsum dolor sit amet, consectetuLorem"
+    }
+]

@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import { blue } from "../../../../components/UI/variables";
+import { blue } from "../UI/variables";
 
-export const DogSlideStyled = styled.section`
-  display: flex;
+export const SlideStyled = styled.section`
+display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  ///padding: 0px 100px;
   .cause {
     font-size: 16px;
     margin-bottom: 6px;

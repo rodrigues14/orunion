@@ -14,8 +14,8 @@
         "cause": "Causa 2",
         "title":"Teste causa 2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-        "amountRequired": "10000",
-        "amountCollected": "4000",
+        "amountRequired": "8000",
+        "amountCollected": "7000",
         "altImage": "Imagem 2",
         "srcImage": "/assets/slide/dog.svg"
     },
@@ -24,8 +24,8 @@
         "cause": "Causa 3",
         "title":"Teste causa 3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-        "amountRequired": "10000",
-        "amountCollected": "4000",
+        "amountRequired": "2000",
+        "amountCollected": "1000",
         "altImage": "Imagem 3",
         "srcImage": "/assets/slide/dog.svg"
     }

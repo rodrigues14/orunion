@@ -11,16 +11,15 @@ export const DonationGoalStyled = styled.div`
   border-radius: 30px;
   padding: 15px;
   position: relative;
-  margin-bottom: 40px;
   box-shadow: -3px 4px 6px rgba(0, 0, 0, 0.25);
   font-weight: 600;
   p {
     overflow-x: hidden;
+    z-index: 2;
   }
   div {
     position: absolute;
     height: 100%;
-    background: linear-gradient(269.87deg, #1F81E1 0.11%, #470E9C 102.6%);
     border-radius: 30px;
     left: 0;
     display: flex;

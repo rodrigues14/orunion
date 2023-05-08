@@ -23,7 +23,11 @@ export default function Slide({
           {description}
         </p>
         
-        <DonationGoalStyled amountCollected={amountCollected} amountRequired={amountRequired} />
+        <DonationGoalStyled 
+          amountCollected={amountCollected} 
+          amountRequired={amountRequired} 
+          margin={'0 0 40px 0'}
+        />
 
         <ButtonAjudeAqui href="">AJUDE AQUI</ButtonAjudeAqui>
       </div>

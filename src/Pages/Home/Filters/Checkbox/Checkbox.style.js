@@ -3,6 +3,11 @@ import { blue } from "../../../../components/UI/variables";
 
 export const CheckboxStyled = styled.div`
     width: 190px;
+    h3 {
+        font-weight: 700;
+        font-size: 12px;
+        padding-top: 15px;
+    }
     div {
         width: 100%;
         display: flex;

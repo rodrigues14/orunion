@@ -8,7 +8,7 @@ import { Container } from '../../components/UI';
 import Card from '../../components/Card'
 import Header from '../../components/Header'
 import Slide from '../../components/Slide';
-import { CardsContainer, SlideStyled } from './Home.style';
+import { CardsContainer, NftsContainer, SlideStyled, CardsNfts } from './Home.style';
 
 import cards from '../../components/Card/cardsData.json';
 import slideData from '../../components/Slide/slideData.json';
@@ -16,7 +16,9 @@ import Search from './Filters/Search';
 import Finished from './Filters/Finished';
 import Select from './Filters/Select';
 import Checkbox from './Filters/Checkbox';
+import NftCard from '../../components/NftCard';
 
+import NftCardData from '../../components/NftCard/NftCardData.json'
 
 function Home() {
   return (
@@ -37,10 +39,10 @@ function Home() {
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
         >
-          {/* Aqui os slides definidos no slideData.json serão renderizados automaticamente */} 
+          {/* Aqui os slides definidos no slideData.json serão renderizados automaticamente */}
           {slideData.map(currentSlide => (
             <SwiperSlide key={currentSlide.id}>
-              <Slide 
+              <Slide
                 cause={currentSlide.cause}
                 title={currentSlide.title}
                 description={currentSlide.description}
@@ -67,15 +69,23 @@ function Home() {
         ))}
       </CardsContainer>
 
-
-      <Search placeholder={"Procure por uma causa específica"} />
-      <br />
-
-      <Finished />
-
-      <Select />
-
-      <Checkbox />
+      <NftsContainer>
+        <div className='filters'>
+          <Search placeholder={"Procure por uma causa específica"} />
+          <Finished />
+          <Select />
+        </div>
+        <div className='content'>
+          <div>
+            <Checkbox />
+          </div>
+          <CardsNfts>
+            {NftCardData.map(nftAtual => (
+              <NftCard key={nftAtual.id} {...nftAtual} />
+            ))}
+          </CardsNfts>
+        </div>
+      </NftsContainer>
 
     </Container>
   )

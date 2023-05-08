@@ -10,6 +10,7 @@ export const FinishedStyled = styled.div`
   align-items: center;
   border-radius: 20px;
   border: .5px solid #8A8A8A;
+  padding: 0 25px;
   p {
     font-weight: 300;
     font-size: 12px;

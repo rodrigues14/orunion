@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { textDark } from '../../../../components/UI/variables';
 
 export const SelectStyled = styled.div`
     width: 250px;
@@ -6,6 +7,7 @@ export const SelectStyled = styled.div`
     border: .5px solid #8A8A8A;
     border-radius: 20px;
     select {
+        color: ${textDark};
         border: none;
         width: 100%;
         height: 100%;

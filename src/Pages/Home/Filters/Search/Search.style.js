@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { textDark } from '../../../../components/UI/variables';
 
 export const SearchStyled = styled.div`
     display: flex;
@@ -13,6 +14,7 @@ export const SearchStyled = styled.div`
         margin: 0 17px 0 12px;
     }
     input {
+        color: ${textDark};
         background: transparent;
         width: 100%;
         height: 100%;

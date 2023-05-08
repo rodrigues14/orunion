@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import { blue } from '../../../../components/UI/variables';
+import { blue, textDark } from '../../../../components/UI/variables';
 
 export const FinishedStyled = styled.div`
+  color: ${textDark};
   display: flex;
   justify-content: center;
   gap: 30px;

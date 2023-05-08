@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { textDark } from '../UI/variables';
 
 export const HeaderStyled = styled.header`
     display: flex;
@@ -19,8 +20,8 @@ export const List = styled.ul`
     li {
         list-style: none;
         a {
+            color: ${textDark};
             text-decoration: none;
-            color: #000;
             padding: 10px;
         }
     }

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { textDark } from "../UI/variables";
 
 export const CardStyled = styled.div`
     display: flex;
@@ -14,6 +15,7 @@ export const CardStyled = styled.div`
     }
     div {
         text-align: center;
+        color: ${textDark};
         h2 {
             font-weight: 400;
             margin-bottom: 10px;

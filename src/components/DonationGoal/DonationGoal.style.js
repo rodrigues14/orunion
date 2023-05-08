@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { textLight } from "../UI/variables";
 
 export const DonationGoalStyled = styled.div`
+  background: ${textLight};
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
   height: 40px;
-  background: #fff;
   border-radius: 30px;
   padding: 15px;
   position: relative;
@@ -18,6 +18,7 @@ export const DonationGoalStyled = styled.div`
     z-index: 2;
   }
   div {
+    color: ${textLight};
     position: absolute;
     height: 100%;
     border-radius: 30px;
@@ -26,6 +27,5 @@ export const DonationGoalStyled = styled.div`
     padding-left: 15px;
     justify-content: flex-start;
     align-items: center;
-    color: ${textLight};
   }
 `;

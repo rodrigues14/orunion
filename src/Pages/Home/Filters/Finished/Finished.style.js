@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { blue } from '../../UI/variables';
+import { blue } from '../../../../components/UI/variables';
 
 export const FinishedStyled = styled.div`
   display: flex;
@@ -21,6 +21,7 @@ export const FinishedStyled = styled.div`
     label {
       font-weight: 500;
       font-size: 12px;
+      cursor: pointer;
     }
     input[type=radio] {
       appearance: none;
@@ -28,6 +29,7 @@ export const FinishedStyled = styled.div`
       height: 18px;
       width: 18px;
       border: 1px solid #8A8A8A;
+      cursor: pointer;
     }
     input[type=radio]:checked {
       border: none;

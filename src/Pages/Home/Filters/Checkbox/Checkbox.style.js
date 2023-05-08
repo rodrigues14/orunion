@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { blue } from "../../UI/variables";
+import { blue } from "../../../../components/UI/variables";
 
 export const CheckboxStyled = styled.div`
     width: 190px;
@@ -21,6 +21,7 @@ export const CheckboxStyled = styled.div`
             height: 20px;
             border: 0.7px solid rgba(0, 0, 0, 0.68);
             border-radius: 3px;
+            cursor: pointer;
             &:checked {
                 background-color: ${blue};
                 border: none;

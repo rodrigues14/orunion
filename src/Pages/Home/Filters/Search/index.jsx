@@ -1,4 +1,4 @@
-import magnifier from '../../../assets/icons/magnifier.svg'; 
+import magnifier from '../../../../assets/icons/magnifier.svg'; 
 import { SearchStyled } from './Search.style';
 
 export default function Search({ placeholder }) {

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "htmlFor": "option1",
+        "label": "Inundações"
+    },
+    {
+        "id": 2,
+        "htmlFor": "option2",
+        "label": "Educação"
+    },
+    {
+        "id": 3,
+        "htmlFor": "option3",
+        "label": "Incêndios"
+    },
+    {
+        "id": 4,
+        "htmlFor": "option4",
+        "label": "Animais"
+    },
+    {
+        "id": 5,
+        "htmlFor": "option5",
+        "label": "Meio Ambiente"
+    },
+    {
+        "id": 6,
+        "htmlFor": "option6",
+        "label": "Catastrofes"
+    },
+    {
+        "id": 7,
+        "htmlFor": "option7",
+        "label": "Nutrição"
+    },
+    {
+        "id": 8,
+        "htmlFor": "option8",
+        "label": "Doença"
+    },
+    {
+        "id": 9,
+        "htmlFor": "option9",
+        "label": "Vestimenta"
+    }
+]

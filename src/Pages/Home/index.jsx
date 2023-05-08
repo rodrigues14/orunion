@@ -12,14 +12,16 @@ import { CardsContainer, SlideStyled } from './Home.style';
 
 import cards from '../../components/Card/cardsData.json';
 import slideData from '../../components/Slide/slideData.json';
+import Search from '../../components/Filters/Search';
+import Finished from '../../components/Filters/Finished';
+import Select from '../../components/Filters/Select';
+import Checkbox from '../../components/Filters/Checkbox';
 
 
 function Home() {
   return (
     <Container>
       <Header />
-
-      
 
       <SlideStyled>
         <Swiper
@@ -64,6 +66,17 @@ function Home() {
           />
         ))}
       </CardsContainer>
+
+
+      <Search placeholder={"Procure por uma causa específica"} />
+      <br />
+
+      <Finished />
+
+      <Select />
+
+      <Checkbox />
+
     </Container>
   )
 }

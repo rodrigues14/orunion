@@ -17,4 +17,9 @@ export const SlideStyled = styled.div`
     .swiper-pagination-bullet-active {
         background-color: ${blue};
     }
+    .swiper-pagination-bullet {
+        width: 20px;
+        height: 20px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    }
 `;

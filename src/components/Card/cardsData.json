@@ -7,13 +7,6 @@
         "texto": "texto 1"
     },
     {
-        "id": 2,
-        "src": "/assets/cards-image/rocket.svg",
-        "alt": "descrição 2",
-        "titulo": "titulo 2",
-        "texto": "texto 2"
-    },
-    {
         "id": 3,
         "src": "/assets/cards-image/money.svg",
         "alt": "descrição 3",

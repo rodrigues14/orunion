@@ -43,7 +43,7 @@ function Home() {
           {slideData.map(currentSlide => (
             <SwiperSlide key={currentSlide.id}>
               <Slide
-                cause={currentSlide.cause}
+                typeCause={currentSlide.typeCause}
                 title={currentSlide.title}
                 description={currentSlide.description}
                 amountRequired={currentSlide.amountRequired}

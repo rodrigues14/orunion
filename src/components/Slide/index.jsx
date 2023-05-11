@@ -3,7 +3,7 @@ import { ButtonAjudeAqui, SlideStyled } from './Slide.style';
 import DonationGoalStyled from '../../components/DonationGoal';
 
 export default function Slide({ 
-    cause, title, description, amountCollected, amountRequired, srcImage, altImage 
+    typeCause, title, description, amountCollected, amountRequired, srcImage, altImage 
 }) {
 
     /*
@@ -17,7 +17,7 @@ export default function Slide({
   return (
     <SlideStyled>
       <div>
-        <span className='cause'>{cause}:</span>
+        <span className='typeCause'>{typeCause.name}:</span>
         <h1>{beginningOfTitle} <span>{lastWord}</span></h1>
         <p className='description'>
           {description}
@@ -31,9 +31,14 @@ export default function Slide({
 
         <ButtonAjudeAqui href="">AJUDE AQUI</ButtonAjudeAqui>
       </div>
-      <div>
-        <img src={srcImage} alt={altImage} />
+      
+      <div className='container-img-slide'>
+        {/*Os vetores serão um padrão para cada slide, por isso não esará no .json*/}
+        <div className='vector-default'><div className='img-vector'></div></div>
+        <div className='vector-default'><div className='img-vector'></div></div>
+        <div><img src={srcImage} alt={altImage} /></div>
       </div>
+      
     </SlideStyled>
   )
 }

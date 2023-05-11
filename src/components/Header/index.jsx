@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/logo.svg';
 import wallet from '../../assets/wallet.svg';
-import { HeaderStyled, List, NavStyled, ButtonWallet } from './Header.style';
+import { HeaderStyled, List, NavStyled, ButtonWallet} from './Header.style';
 
 export default function Header() {
     const routes = [
@@ -25,7 +25,7 @@ export default function Header() {
 
   return (
     <HeaderStyled>
-        <img src={logo} alt="Logo da Orunion" />
+        <img className='logoNav' src={logo} alt="Logo da Orunion"/>
         <NavStyled>
             <List>
                 {routes.map((route, index) => (

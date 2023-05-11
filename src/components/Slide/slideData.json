@@ -1,32 +1,41 @@
 [
-    {
-        "id": 1,
-        "cause": "Causa 1",
-        "title":"Este é um titulo de exemplo",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-        "amountRequired": "10000",
-        "amountCollected": "4000",
-        "altImage": "Imagem 1",
-        "srcImage": "/assets/slide/dog.svg"
+  {
+    "id": 1,
+    "typeCause": {
+      "id": 1,
+      "name": "Animais"
     },
-    {
-        "id": 2,
-        "cause": "Causa 2",
-        "title":"Teste causa 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-        "amountRequired": "8000",
-        "amountCollected": "7000",
-        "altImage": "Imagem 2",
-        "srcImage": "/assets/slide/dog.svg"
+    "title": "Este é um titulo de exemplo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+    "amountRequired": "10000",
+    "amountCollected": "4000",
+    "altImage": "Imagem 1",
+    "srcImage": "/assets/slide/dog_teste.png"
+  },
+  {
+    "id": 1,
+    "typeCause": {
+      "id": 1,
+      "name": "Animais"
     },
-    {
-        "id": 3,
-        "cause": "Causa 3",
-        "title":"Teste causa 3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
-        "amountRequired": "2000",
-        "amountCollected": "1000",
-        "altImage": "Imagem 3",
-        "srcImage": "/assets/slide/dog.svg"
-    }
+    "title": "Este é um titulo de exemplo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+    "amountRequired": "10000",
+    "amountCollected": "4000",
+    "altImage": "Imagem 1",
+    "srcImage": "/assets/slide/dog_teste.png"
+  },
+  {
+    "id": 1,
+    "typeCause": {
+      "id": 1,
+      "name": "Animais"
+    },
+    "title": "Este é um titulo de exemplo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper venenatis semper. Vestibulum antve ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+    "amountRequired": "10000",
+    "amountCollected": "4000",
+    "altImage": "Imagem 1",
+    "srcImage": "/assets/slide/dog_teste.png"
+  }
 ]

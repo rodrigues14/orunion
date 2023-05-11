@@ -27,5 +27,17 @@ export const DonationGoalStyled = styled.div`
     padding-left: 15px;
     justify-content: flex-start;
     align-items: center;
+    animation: progress-animation 1.5s ease-in-out infinite;
   }
+  @keyframes progress-animation {
+    0% {
+      width: 40%;
+    }
+    50% {
+      width: 41%;
+    }
+    100% {
+      width: 40%;
+    }
+
 `;

@@ -5,8 +5,12 @@ export const HeaderStyled = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 0px;
+    padding: 16px 0px;
+    .logoNav{
+        width: 114px;
+    }
 `;
+
 
 export const NavStyled = styled.nav`
     display: flex;
@@ -23,6 +27,10 @@ export const List = styled.ul`
             color: ${textDark};
             text-decoration: none;
             padding: 10px;
+
+            &:hover {
+                font-weight: 700;
+               }
         }
     }
 `;
@@ -38,4 +46,11 @@ export const ButtonWallet = styled.button`
     border-radius: 39px;
     font-weight: 600;
     font-size: 15px;
+    cursor:pointer;
+    transition: 1s;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) -3px 4px 15px 5px;
+        background-color: rgb(235 235 235);
+       }
+  
 `;

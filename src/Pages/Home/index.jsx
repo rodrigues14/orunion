@@ -19,75 +19,80 @@ import Checkbox from './Filters/Checkbox';
 import NftCard from '../../components/NftCard';
 
 import NftCardData from '../../components/NftCard/NftCardData.json'
+import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <Container>
-      <Header />
+    <>
+      <Container>
+        <Header />
 
-      <SlideStyled>
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-            delay: 10000,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-        >
-          {/* Aqui os slides definidos no slideData.json serão renderizados automaticamente */}
-          {slideData.map(currentSlide => (
-            <SwiperSlide key={currentSlide.id}>
-              <Slide
-                typeCause={currentSlide.typeCause}
-                title={currentSlide.title}
-                description={currentSlide.description}
-                amountRequired={currentSlide.amountRequired}
-                amountCollected={currentSlide.amountCollected}
-                srcImage={currentSlide.srcImage}
-                altImage={currentSlide.altImage}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </SlideStyled>
-
-      {/* Aqui os cards definidos no cardsData.json serão renderizados automaticamente */}
-      <CardsContainer>
-        {cards.map((item) => (
-          <Card
-            alt={item.alt}
-            src={item.src}
-            texto={item.texto}
-            titulo={item.titulo}
-            key={item.id}
-          />
-        ))}
-      </CardsContainer>
-
-      <NftsContainer>
-        <div className='filters'>
-          <Search placeholder={"Procure por uma causa específica"} />
-          <Finished />
-          <Select />
-        </div>
-        <div className='content'>
-          <div>
-            <Checkbox />
-          </div>
-          <CardsNfts>
-            {NftCardData.map(nftAtual => (
-              <NftCard key={nftAtual.id} {...nftAtual} />
+        <SlideStyled>
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 10000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+          >
+            {/* Aqui os slides definidos no slideData.json serão renderizados automaticamente */}
+            {slideData.map(currentSlide => (
+              <SwiperSlide key={currentSlide.id}>
+                <Slide
+                  typeCause={currentSlide.typeCause}
+                  title={currentSlide.title}
+                  description={currentSlide.description}
+                  amountRequired={currentSlide.amountRequired}
+                  amountCollected={currentSlide.amountCollected}
+                  srcImage={currentSlide.srcImage}
+                  altImage={currentSlide.altImage}
+                />
+              </SwiperSlide>
             ))}
-          </CardsNfts>
-        </div>
-      </NftsContainer>
+          </Swiper>
+        </SlideStyled>
 
-    </Container>
+        {/* Aqui os cards definidos no cardsData.json serão renderizados automaticamente */}
+        <CardsContainer>
+          {cards.map((item) => (
+            <Card
+              alt={item.alt}
+              src={item.src}
+              texto={item.texto}
+              titulo={item.titulo}
+              key={item.id}
+            />
+          ))}
+        </CardsContainer>
+
+        <NftsContainer>
+          <div className='filters'>
+            <Search placeholder={"Procure por uma causa específica"} />
+            <Finished />
+            <Select />
+          </div>
+          <div className='content'>
+            <div>
+              <Checkbox />
+            </div>
+            <CardsNfts>
+              {NftCardData.map(nftAtual => (
+                <NftCard key={nftAtual.id} {...nftAtual} />
+              ))}
+            </CardsNfts>
+          </div>
+        </NftsContainer>
+
+
+      </Container>
+      <Footer />
+    </>
   )
 }
 

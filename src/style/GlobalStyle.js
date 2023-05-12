@@ -30,4 +30,7 @@ export const GlobalStyle = createGlobalStyle`
             transition: .3s;
         }
     }
+    a {
+        text-decoration: none;
+    }
 `;

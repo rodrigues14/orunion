@@ -6,7 +6,7 @@ display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  .typeCause:{name} {
+  .typeCause {
     color: ${textDark};
     font-size: 16px;
     margin-bottom: 6px;
@@ -72,7 +72,6 @@ display: flex;
 `;
 
 export const ButtonAjudeAqui = styled.a`
-  text-decoration: none;
   font-weight: 700;
   background-color: ${blue};
   color: ${textLight};

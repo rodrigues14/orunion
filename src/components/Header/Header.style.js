@@ -25,12 +25,10 @@ export const List = styled.ul`
         list-style: none;
         a {
             color: ${textDark};
-            text-decoration: none;
             padding: 10px;
-
             &:hover {
                 font-weight: 700;
-               }
+            }
         }
     }
 `;
